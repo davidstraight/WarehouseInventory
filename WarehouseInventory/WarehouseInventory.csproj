@@ -79,9 +79,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\HandTool.cs" />
+    <Compile Include="Models\Location.cs" />
     <Compile Include="Models\Part.cs" />
     <Compile Include="Models\PowerTool.cs" />
     <Compile Include="Models\Tool.cs" />
+    <Compile Include="Models\Warehouse.cs" />
     <Compile Include="Models\WarehouseDB.cs" />
     <Compile Include="Models\WarehouseItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -102,6 +104,14 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.HandTool.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.Location.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.Part.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.PowerTool.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.Tool.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.Warehouse.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.WarehouseDB.datasource" />
+    <None Include="Properties\DataSources\WarehouseInventory.Models.WarehouseItem.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

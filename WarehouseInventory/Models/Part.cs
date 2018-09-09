@@ -8,5 +8,6 @@ namespace WarehouseInventory.Models
 {
     class Part : WarehouseItem
     {
+        public int PartID { get; set; }
     }
 }

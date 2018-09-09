@@ -24,5 +24,18 @@ namespace WarehouseInventory
         {
             InitializeComponent();
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            System.Windows.Data.CollectionViewSource warehouseItemViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("warehouseItemViewSource")));
+            // Load data by setting the CollectionViewSource.Source property:
+            // warehouseItemViewSource.Source = [generic data source]
+        }
     }
 }

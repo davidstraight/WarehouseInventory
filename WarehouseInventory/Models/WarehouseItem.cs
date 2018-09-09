@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace WarehouseInventory.Models
 {
-    class WarehouseItem
+   public abstract class WarehouseItem
     {
+        public int WarehouseItemID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public string Zone { get; set; }
-        public string Row { get; set; }
-        public string Shelf { get; set; }
-        p
+        public Location Zone { get; set; }
+        public Location Row { get; set; }
+        public Location Shelf { get; set; }
+        public Location Bin { get; set; }
+        public int WarehouseId { get; set; }
+        public virtual Warehouse Warehouse { get; set; }
     }
 }
