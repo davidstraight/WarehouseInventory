@@ -11,10 +11,7 @@ namespace WarehouseInventory.Models
         public int WarehouseItemID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public Location Zone { get; set; }
-        public Location Row { get; set; }
-        public Location Shelf { get; set; }
-        public Location Bin { get; set; }
+        public Location Location { get; set; }
         public int WarehouseId { get; set; }
         public virtual Warehouse Warehouse { get; set; }
     }
